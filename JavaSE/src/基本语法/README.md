@@ -2,7 +2,7 @@
 
 ## 变量 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%8F%98%E9%87%8F)
 
-- ### 变量的使用 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%8F%98%E9%87%8F/%E5%8F%98%E9%87%8F%E7%9A%84%E4%BD%BF%E7%94%A8.java)
+1. ### 变量的使用 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%8F%98%E9%87%8F/%E5%8F%98%E9%87%8F%E7%9A%84%E4%BD%BF%E7%94%A8.java)
 
 
 > 1.java定义变量的格式： 数据类型 变量名 = 变量值
@@ -17,10 +17,9 @@
 
 ------
 
-- ### 变量类型 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%8F%98%E9%87%8F/%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B.java)
+2. ### 变量类型 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%8F%98%E9%87%8F/%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B.java)
 
-
-数据类型分类:
+#### 数据类型分类:
 
 ####     **变量按照数据类型分**
 
