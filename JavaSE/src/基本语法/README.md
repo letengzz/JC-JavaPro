@@ -38,11 +38,11 @@
 #####   引用数据类型
 
 ```
-  类(class
+  类(class)(包括 String关键字)
 
-  接口(interface
+  接口(interface)
 
-  数组(array
+  数组(array)
 ```
 
 ####  变量按照声明的位置
