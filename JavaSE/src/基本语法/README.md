@@ -51,7 +51,7 @@
 
 #####   局部变量
 
-------
+## 基础 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%9F%BA%E7%A1%80)
 
 - ### String变量的使用 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%8F%98%E9%87%8F/String%E5%8F%98%E9%87%8F%E4%BD%BF%E7%94%A8.java)
 
@@ -64,8 +64,6 @@
 >
 > 运算结果仍然是String
 
-## 基础 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%9F%BA%E7%A1%80)
-
 - ### HelloWorld ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%9F%BA%E7%A1%80/HelloWorld.java)
 
 ------
@@ -75,7 +73,7 @@
 
 > 从键盘获取不同类型的变量 使用Scanner 类
 >
-> ###### 步骤
+> **步骤**
 >
 > ​	1导包 import java.util.Scanner;
 > ​	2Scanner实例化Scanner scanner = new Scanner(System.in);
@@ -86,11 +84,12 @@
 > ​		nextBoolean(); boolean
 > ​		nextByte(); byte
 >
-> ###### 对于char 的获取 Scanner 没有提供相关的方法 只能获取一个字符串
+> **对于char 的获取 Scanner 没有提供相关的方法 只能获取一个字符串**
 >
 > ​	String gender = scan.next();
 > ​	char genderChar = gender.charAt(0) //获取索引值为0位置上的字符
-> ###### 注意
+>
+> **注意**
 >
 > ​	需要根据相应的方法 来输入制定类型的值 如果输入的数据类型与要求的不匹配 报异  导致程序终止
 
