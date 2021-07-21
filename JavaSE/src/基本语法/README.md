@@ -4,16 +4,19 @@
 
 1. ### 变量的使用
 
+#####  `java`定义变量的格式： 
 
-> 1.`java`定义变量的格式： 数据类型 变量名 = 变量值
-> 
-> **2.说明：**
-> 
->   ①变量必须先声明，后使用
-> 
->   ②变量都定义在其作用域内 在作用域有效 出了失效
-> 
->   ③同一作用域内 不可以同时声明两个同名变量
+```java
+数据类型 变量名 = 变量值
+```
+
+**2.说明：**
+
+  ①变量必须先声明，后使用
+
+   ②变量都定义在其作用域内 在作用域有效 出了失效
+
+  ③同一作用域内 不可以同时声明两个同名变量
 
 ------
 
@@ -92,9 +95,10 @@ StringBuilder sb = new StringBuilder();
     * 浮点数（float、double）：`0.0`
     * 字符型（char）：`0（或'\u0000')`
     * 布尔型（boolean）:`false`
-    * 
-    * 引用数据类型（类，数组，接口）：`null`
-
+    
+      
+  * 引用数据类型（类，数组，接口）：`null`
+  
 * 在内存中加载到堆空间中（非static）
 
 #####   		局部变量
@@ -224,21 +228,25 @@ Scanner scanner = new Scanner(System.in);
 
 1. ### 三元运算符 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6.java)
 
-   ##### 结构 ： (条件表达式)?表达式1:表达式2
+   ##### 结构 ： 
 
+   ```java
+   (条件表达式)?表达式1:表达式2
+   ```
+   
    **说明：**
-
+   
    ​	①条件表达式的结果为boolean类型
    ​	②根据条件表达式 决定执行表达式1 还是表达式2
    ​			如果表达式为true 则执行表达式1
    ​			如果表达式为false 则执行表达式2
    **表达式1 和表达式2要求是一致的**
-
+   
    **三元运算符 可以嵌套**
-
+   
    *凡是可以使用三元运算符 的地方 都可以改写成if-else*
    *用if-else 的地方不一定可以改写成三元运算符*
-
+   
    **如果程序既可以使用三元运算符又可以使用if-else  那么优先选择三元运算符 原因： 简洁、执行效率高**
 
 2. ### 比较运算符 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E6%AF%94%E8%BE%83%E8%BF%90%E7%AE%97%E7%AC%A6.java)
@@ -364,19 +372,11 @@ Scanner scanner = new Scanner(System.in);
    > ​	 default 可选的，位置是灵活的如果switch case 结构中的多个case的执行语句相同 则可以考虑进行合并
    > **说明 凡是使用switch-case的结构 都可以转换为if-else 反之不成立**
    > 当写分支结构时 既可以 又可以 （case不太多)优先选择switch-case
-   >   **原因 switch-case 执行效率稍高**
+   >   **原因 switch-case 执行效率稍高
+   
    
    ------
    
-3. #### 练习题 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98)
-   #### 	if练习题 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/if%E7%BB%83%E4%B9%A0%E9%A2%98)
-   > 包含判断成绩、键盘存入三个变量进行排序从小到大输出、随机奖励等...
-
-    #### 	switch练习题 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/switch%E7%BB%83%E4%B9%A0%E9%A2%98)
-   > 包含if改switch、转为大写并判断、大于60分、指定月份季节、2019的第几天、输入年月日 判断这一天是当年 的几天、判断分数、中国生肖问题...
-
-   
-   ------
 - ### 循环结构 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84)
 
 1. #### do-while循环 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/dowhile%E5%BE%AA%E7%8E%AF.java)
@@ -452,80 +452,18 @@ Scanner scanner = new Scanner(System.in);
 4. #### 嵌套循环 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/%E5%B5%8C%E5%A5%97%E5%BE%AA%E7%8E%AF%E7%9A%84%E4%BD%BF%E7%94%A8.java)
    
    > 嵌套循环 将一个循环结构A声明在另一个循环结构B的循环体中，就构成了嵌套循环
-      >        外层循环：循环结构B
-      >        内层循环：循环结构A
-      >    说明
-      >     内层循环结构遍历一遍 只相当于外层循环体
-      >      技巧
-      >    外层循环控制行数，内层循环控制列数
+   >     外层循环：循环结构B
+   >     内层循环：循环结构A
+   > 说明
+   >  内层循环结构遍历一遍 只相当于外层循环体
+   >   技巧
+   > 外层循环控制行数，内层循环控制列数
+   >
+   - ### 顺序结构 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E9%A1%BA%E5%BA%8F%E7%BB%93%E6%9E%84/%E9%A1%BA%E5%BA%8F%E7%BB%93%E6%9E%84.java)
+   
+   
+    > 程序从上到下执行
 
 - 
   ### 练习题 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98)
 
-     #### for练习题 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/for%E7%BB%83%E4%B9%A0%E9%A2%98)
-
-   > 包含判断成绩、键盘存入三个变量进行排序从小到大输出、随机奖励等...
-
-     #### 	while练习题 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/while%E7%BB%83%E4%B9%A0%E9%A2%98)
-
-   > 包含判断成绩、键盘存入三个变量进行排序从小到大输出、随机奖励等...
-
-     #### 	无限循环for ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/for%E7%BB%83%E4%B9%A0%E9%A2%98/%E6%97%A0%E9%99%90%E5%BE%AA%E7%8E%AF.java)
-
-   > 包含判断成绩、键盘存入三个变量进行排序从小到大输出、随机奖励等...
-
-     #### 	无限循环while ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/while%E7%BB%83%E4%B9%A0%E9%A2%98/while%E8%AF%AD%E5%8F%A5%E7%BB%83%E4%B9%A0.java)
-
-   > 包含判断成绩、键盘存入三个变量进行排序从小到大输出、随机奖励等...
-
-     #### 	一百以内的所有质数 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/%E5%B5%8C%E5%A5%97%E5%BE%AA%E7%8E%AF%E7%BB%83%E4%B9%A0%E9%A2%98/%E4%B8%80%E7%99%BE%E4%BB%A5%E5%86%85%E6%89%80%E6%9C%89%E8%B4%A8%E6%95%B0)
-
-   > 包含判断成绩、键盘存入三个变量进行排序从小到大输出、随机奖励等...
-
-     #### 	三角问题 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/%E5%B5%8C%E5%A5%97%E5%BE%AA%E7%8E%AF%E7%BB%83%E4%B9%A0%E9%A2%98/%E4%B8%89%E8%A7%92%E9%97%AE%E9%A2%98)
-
-   > 包含判断成绩、键盘存入三个变量进行排序从小到大输出、随机奖励等...
-
-     #### 	九九乘法表 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/%E5%B5%8C%E5%A5%97%E5%BE%AA%E7%8E%AF%E7%BB%83%E4%B9%A0%E9%A2%98/%E4%B9%9D%E4%B9%9D%E4%B9%98%E6%B3%95%E8%A1%A8.java)
-
-   > 包含判断成绩、键盘存入三个变量进行排序从小到大输出、随机奖励等...
-
-- ### 顺序结构 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E9%A1%BA%E5%BA%8F%E7%BB%93%E6%9E%84/%E9%A1%BA%E5%BA%8F%E7%BB%93%E6%9E%84.java)
-
-
-> 程序从上到下执行
-
-- ### 项目：家庭记账软件 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E9%A1%B9%E7%9B%AE/%E5%AE%B6%E5%BA%AD%E8%AE%B0%E8%B4%A6%E8%BD%AF%E4%BB%B6)
-
-- ### break、continue关键字 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/breakcontinue%E5%85%B3%E9%94%AE%E5%AD%97.java)
-
-> break和continue关键字的使用
->               使用范围        循环中使用的作用        相同点
-> break            switch-case    结束当前循环        关键字后面不能声明执行语句
->               循环结构中
-> continue         循环结构中       结束当次循环        关键字后面不能声明执行语句
-
-2. > >>
-
-2. ## 练习题 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E7%BB%83%E4%B9%A0%E9%A2%98)
-   
-   #### 	位运算练习 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E7%BB%83%E4%B9%A0%E9%A2%98/%E4%BD%8D%E8%BF%90%E7%AE%97%E7%AC%A6%E7%BB%83%E4%B9%A0.java)
-   > 交换两个变量的值
-   
-   #### 	求0-255的十六进制值 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E7%BB%83%E4%B9%A0%E9%A2%98/%E6%B1%820%E5%88%B0255%E6%95%B4%E6%95%B0%E7%9A%84%E5%8D%81%E5%85%AD%E8%BF%9B%E5%88%B6%E5%80%BC.java)
-   > 求0到255整数的十六进制值自动实现和手动实现
-   
-   #### 	算术运算符练习题 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E7%BB%83%E4%B9%A0%E9%A2%98/%E7%AE%97%E6%9C%AF%E8%BF%90%E7%AE%97%E7%AC%A6%E7%BB%83%E4%B9%A0%E9%A2%98.java)
-   > 随意给出一个整数，打印显示它的个数位，十位数，百位数的值
-   
-   #### 	自增自减练习题 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E7%BB%83%E4%B9%A0%E9%A2%98/%E8%87%AA%E5%A2%9E%E8%87%AA%E5%87%8F%E7%BB%83%E4%B9%A0%E9%A2%98.java)
-   > 自增自减练习
-
-   #### 	赋值运算符练习题 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E7%BB%83%E4%B9%A0%E9%A2%98/%E8%B5%8B%E5%80%BC%E8%BF%90%E7%AE%97%E7%AC%A6%E7%BB%83%E4%B9%A0%E9%A2%98.java)
-   > 赋值运算符练习   
-
-   #### 	逻辑运算符练习题1 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E7%BB%83%E4%B9%A0%E9%A2%98/%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6%E7%BB%83%E4%B9%A0%E9%A2%98.java)
-   > 逻辑运算符练习
-
-   #### 	逻辑运算符练习题2 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E7%BB%83%E4%B9%A0%E9%A2%98/%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6%E7%BB%83%E4%B9%A0%E9%A2%982.java)
-   > 逻辑运算符练习
