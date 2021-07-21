@@ -98,8 +98,7 @@ StringBuilder sb = new StringBuilder();
     * 字符型（char）：`0（或'\u0000')`
     * 布尔型（boolean）:`false`
     
-      
-  * 引用数据类型（类，数组，接口）：`null`
+    * 引用数据类型（类，数组，接口）：`null`
   
 * 在内存中加载到堆空间中（非static）
 
@@ -163,7 +162,7 @@ StringBuilder sb = new StringBuilder();
 ------
 
 
-- ### HelloWorld ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%9F%BA%E7%A1%80/HelloWorld.java)
+- ### `HelloWorld` ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%9F%BA%E7%A1%80/HelloWorld.java)
 
 ------
 
@@ -230,7 +229,7 @@ Scanner scanner = new Scanner(System.in);
 
 1. ### 三元运算符 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6.java)
 
-   ##### 结构 ： 
+   **结构 ：** 
 
    ```java
    (条件表达式)?表达式1:表达式2
@@ -257,7 +256,7 @@ Scanner scanner = new Scanner(System.in);
    == != > < >= <= instanceof
    ```
 
-   ##### **结论**
+   **结论**
 
    ​	比较运算符结果是boolean类型
    *区分 **==** 和 =*
@@ -285,182 +284,183 @@ Scanner scanner = new Scanner(System.in);
 
 2. ### 位运算符 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E4%BD%8D%E8%BF%90%E7%AE%97%E7%AC%A6.java)
 
-   > 位运算符
-   > `<<左移 >>右移 >>>无符号右移  & 与 |或  ^异或 ~取反`
-   > 位运算符操作的都是整型的数据
-   > <<在一定的范围内 每向左移1位 相当于 * 2
-   >
-   > 在一定的范围内 每向右移1位 相当于 / 2
-   > 最高效方式的计算 2*8    2 << 3  或 8 << 1
+   ```java
+   <<左移 >>右移 >>>无符号右移  & 与 |或  ^异或 ~取反
+   ```
+   
+   位运算符操作的都是整型的数据
+   **<<在一定的范围内 每向左移1位 相当于 * 2**
+   
+   **在一定的范围内 每向右移1位 相当于 / 2**
+   **最高效方式的计算 2*8    2 << 3  或 8 << 1**
 
 ## 流程控制 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6)
 
 - ### 分支结构 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84)
 1. #### if循环 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84/ifelse%E5%BE%AA%E7%8E%AF.java)
    
-   > ​	else 是可选的
-   > ​	针对多个条件表达式之间是互斥关系(没有交集的关系 哪个判断和执行语句在上面 还是下面都无所谓
-   > ​	如果多个条件表达式之间有交集关系，需要根据实际情况考虑清楚 哪个声明在上面
-   > ​	如果多个条件表达式之间有包含关系，通常条件下 需要将范围小的声明在范围大的上面 否则范围小的没机会
-   >
-   > if-else 结构是可以相互嵌套的
-   > 	如果if-else结构中的执行语句只有一行时 对应的{}可以省略 但是不建议
-   >
-   > #### 三种结构
-   >
-   > ##### 第一种
-   >
-   > ```java
-   > if(条件表达式){
-   >   执行表达式
-   > }
-   > ```
-   >
-   > ##### 第二种 二选一
-   >
-   > ```java
-   > if(条件表达式){
-   >   执行表达式1
-   > }else{
-   >   执行表达式2
-   > }
-   > ```
-   >
-   > ##### **第三种 n选一**
-   >
-   > ```java
-   > if(条件表达式){
-   >     执行表达式1
-   > }else if(条件表达式){
-   >     执行表达式2
-   > }...
-   >  else{
-   >      执行表达式n
-   >  }
-   > ```
+    ​	else 是可选的
+    ​	针对多个条件表达式之间是**互斥关系**(没有交集的关系 哪个判断和执行语句在上面 还是下面都无所谓
+    ​	如果多个条件表达式之间有**交集关系**，需要根据实际情况考虑清楚 哪个声明在上面
+    ​	如果多个条件表达式之间有**包含关系**，通常条件下 需要将范围小的声明在范围大的上面 否则范围小的没机会
+   
+    if-else 结构是**可以相互嵌套**的
+    	如果if-else结构中的执行语句只有一行时 **对应的{}可以省略 但是不建议**
+   
+    **三种结构**
+   
+    **第一种**
+   
+    ```java
+    if(条件表达式){
+    执行表达式
+    }
+    ```
+   
+    **第二种 二选一**
+   
+    ```java
+    if(条件表达式){
+    执行表达式1
+    }else{
+    执行表达式2
+    }
+    ```
+   
+    **第三种 n选一**
+   
+    ```java
+    if(条件表达式){
+     执行表达式1
+    }else if(条件表达式){
+     执行表达式2
+    }...
+    else{
+      执行表达式n
+    }
+    ```
    
    ------
    
 2. #### 	switch-case ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84/switchcase.java)
    
-   
-   > ##### 格式
-   >
-   > ```java
-   > switch(表达式){
-   >  case 常量1;
-   >  	执行语句1;
-   >     //break;
-   >  case 常量2;
-   >     执行语句2
-   >     //break;
-   >  default:
-   >     执行语句n;
-   >     //break;
-   > }
-   > ```
-   >
-   > ##### 说明
-   >
-   > ​	①根据switch 表达式中的值 依次匹配各个case中的常量 一旦匹配成功 则进入相应的case结构中调用其执行语句
-   > 当调用完执行语句以后 则仍然继续向下执行其他case结构中的执行语句 直到遇到break关键字或此switch-case机构末尾结束为止
-   >
-   > ​	*②break可以使用在  > switch-case结构中 表示一旦执行此关键字就跳出switch-case结构中*
-   >
-   > ​	③switch 结构中的表达式 只能是如下6种类型 byte、short、char、int、枚举类  > 型(jdk5.0)、String类型(jdk7.0新增)
-   > ​	④case之后只能声明常量，不能声明范围
-   > ​	⑤break关键字是可选的
-   > ​	⑥default 相当于else
-   > ​	 default 可选的，位置是灵活的如果switch case 结构中的多个case的执行语句相同 则可以考虑进行合并
-   > **说明 凡是使用switch-case的结构 都可以转换为if-else 反之不成立**
-   > 当写分支结构时 既可以 又可以 （case不太多)优先选择switch-case
-   >   **原因 switch-case 执行效率稍高
-   
-   
-   ------
-   
+   **格式**
+    
+   ```java
+    switch(表达式){
+     case 常量1;
+     	执行语句1;
+        //break;
+     case 常量2;
+        执行语句2
+        //break;
+     default:
+        执行语句n;
+        //break;
+    }
+    ```
+    
+   **说明**
+    
+   ​	①根据switch 表达式中的值 依次匹配各个case中的常量 一旦匹配成功 则进入相应的case结构中调用其执行语句
+    当调用完执行语句以后 则仍然继续向下执行其他case结构中的执行语句 直到遇到break关键字或此switch-case机构末尾结束为止
+    
+   ​	*②break可以使用在  > switch-case结构中 表示一旦执行此关键字就跳出switch-case结构中*
+    
+   ​	③switch 结构中的表达式 只能是如下6种类型 byte、short、char、int、枚举类  > 型(jdk5.0)、String类型(jdk7.0新增)
+    ​	④case之后只能声明常量，不能声明范围
+    ​	⑤break关键字是可选的
+    ​	⑥default 相当于else
+    ​	 default 可选的，位置是灵活的如果switch case 结构中的多个case的执行语句相同 则可以考虑进行合并
+    **说明 凡是使用switch-case的结构 都可以转换为if-else 反之不成立**
+    当写分支结构时 既可以 又可以 （case不太多)优先选择switch-case
+      **原因 switch-case 执行效率稍高
+
+
+------
+
 - ### 循环结构 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84)
 
 1. #### do-while循环 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/dowhile%E5%BE%AA%E7%8E%AF.java)
 
    
-      >  do-while
-      >  循环结构的四要素
-      >  	①初始化条件
-      >  	②循环条件 --》是boolean 类型
-      >  	③循环体
-      >  	④迭代条件
-      >
-      >  do-while 循环结构
-      >
-      >  ```java
-      >  ①
-      >  do{
-      >  	③;
-      >  	④;
-      >  }while(②);
-      >  ```
-      >
-      >  执行过程 ①-③-④-②-③-④-。。。-②
-     >  说明
-      >  **do-while 循环至少执行一次循环体**
+     do-while
+     循环结构的四要素
+     	①初始化条件
+     	②循环条件 --》是boolean 类型
+     	③循环体
+     	④迭代条件
+   
+     do-while 循环结构
+   
+     ```java
+     ①
+     do{
+     	③;
+     	④;
+     }while(②);
+     ```
+   
+     执行过程 ①-③-④-②-③-④-。。。-②
+      说明
+     **do-while 循环至少执行一次循环体**
    
    ------
 
 2. #### for循环 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/for%E5%BE%AA%E7%8E%AF.java)
    
    
-      > **for循环四要素**
-      > 	①初始化条件
-      > 	②循环条件   是boolean类型
-      > 	③循环体
-      > 	④迭代条件
-      > for循环结构  
-      >
-      > ```java
-     > for(①;②;④){
-      > ③
-     > }
-      > ```
-      >
-      > 执行过程 ： ① - ② - ③ - ④ - ② - ③ -。。-② 
+       **for循环四要素**
+       	①初始化条件
+       	②循环条件   是boolean类型
+       	③循环体
+       	④迭代条件
+       for循环结构  
+          
+       ```java
+      for(①;②;④){
+       ③
+      }
+       ```
+   
+       执行过程 ： ① - ② - ③ - ④ - ② - ③ -。。-② 
 
    ------
 
 3. #### while循环 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/while%E5%BE%AA%E7%8E%AF.java)
    
    
-      > 循环结构的四要素
-      > 	①初始化条件
-      > ②循环条件 --》是boolean 类型
-      > ③循环体
-      > ④迭代条件
-      >   ①
-      > 
-      > while(②){
-      > ③;
-      > ④;
-      > }
-      > 执行过程 ①-②-③-④-②-③-④。。。-②
-      > 说明
-      > 1千万小心丢了迭代条件 一旦丢了 可能导致死循环
-      > 2要避免死循环
-      > 3for循环和while可以相互转换
-      > 区别 for 和while初始化条件的作用范围不同
-      > 算法 : 有限性
+       循环结构的四要素
+       	①初始化条件
+       ②循环条件 --》是boolean 类型
+       ③循环体
+       ④迭代条件
+         ①
+       
+       while(②){
+       ③;
+       ④;
+       }
+       执行过程 ①-②-③-④-②-③-④。。。-②
+       说明
+       1千万小心丢了迭代条件 一旦丢了 可能导致死循环
+       2要避免死循环
+       3for循环和while可以相互转换
+       区别 for 和while初始化条件的作用范围不同
+       算法 : 有限性
    
    ------
 
 4. #### 嵌套循环 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/%E5%B5%8C%E5%A5%97%E5%BE%AA%E7%8E%AF%E7%9A%84%E4%BD%BF%E7%94%A8.java)
    
-   > 嵌套循环 将一个循环结构A声明在另一个循环结构B的循环体中，就构成了嵌套循环
-   >     外层循环：循环结构B
-   >     内层循环：循环结构A
-   > 说明
-   >  内层循环结构遍历一遍 只相当于外层循环体
-   >   技巧
-   > 外层循环控制行数，内层循环控制列数
-   >
+    嵌套循环 将一个循环结构A声明在另一个循环结构B的循环体中，就构成了嵌套循环
+        外层循环：循环结构B
+        内层循环：循环结构A
+    说明
+     内层循环结构遍历一遍 只相当于外层循环体
+      技巧
+    外层循环控制行数，内层循环控制列数
+   
    - ### 顺序结构 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E9%A1%BA%E5%BA%8F%E7%BB%93%E6%9E%84/%E9%A1%BA%E5%BA%8F%E7%BB%93%E6%9E%84.java)
    
    
