@@ -1,6 +1,6 @@
 # *<u>**JavaSE**</u>*
 
-1. #### 基础知识 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86)
+1. #### 基础知识 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86)
 
    > 包含:Java介绍、简史、体系平台、特点、应用领域、JDK配置、Java核心机制、优点、JDK和JRE、Java编译过程、运行Java程序
 
