@@ -4,13 +4,13 @@
 
 1. ### 变量的使用
 
- **java定义变量的格式：**
+`java`定义变量的格式：
 
 ```java
 数据类型 变量名 = 变量值
 ```
 
-**2.说明：**
+**说明：**
 
   ①变量必须先声明，后使用
 
@@ -25,28 +25,6 @@
 #### 数据类型分类: ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B)
 
 ####        **变量按照数据类型分**
-
-#####   		基本数据类型 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B)
-
-```
-  整型 byte、short、int、long
-
-  浮点型 float、double
-   
-  字符型 char
-
-  布尔型 boolean
-```
-
-#####   		引用数据类型 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/%E5%BC%95%E7%94%A8%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B)
-
-```
-  类(class)(包括 String关键字)
-
-  接口(interface)
-
-  数组(array)
-```
 
 #### var字符
 
@@ -75,6 +53,33 @@ StringBuilder sb = new StringBuilder();
 ```
 
 因此，使用var定义变量，仅仅是少写了变量类型而已。
+
+------
+
+#####   		基本数据类型 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B)
+
+```
+  整型 byte、short、int、long
+
+  浮点型 float、double
+   
+  字符型 char
+
+  布尔型 boolean
+```
+
+#####   		引用数据类型 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/%E5%BC%95%E7%94%A8%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B)
+
+```
+  类(class)(包括 String关键字)
+
+  接口(interface)
+
+  数组(array)
+```
+
+------
+
 
 ####  变量按照声明的位置
 
@@ -117,11 +122,16 @@ StringBuilder sb = new StringBuilder();
   ​	特别的 形参在调用时 赋值即可
   
 * 在内存中加载到栈空间中
+
+------
+
 ## 类型转换
 
 基本数据类型运算规则
 
 **前提**:只是七种基本数据类型变量间的运算,不包含 boolean类型
+
+------
 
 * ### 1.自动类型提升
 
@@ -132,6 +142,8 @@ StringBuilder sb = new StringBuilder();
   ```
 
   当byte、char、short三种做运算时、结果为int型
+  
+------
 
 * ### 2.强制类型转换:
 
@@ -146,6 +158,8 @@ StringBuilder sb = new StringBuilder();
   ```
 
 * **说明**: 此时的容量大小指的是，表示数的范围的大和小 比如 float 容量大于long
+
+------
 
 ## 基础 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%9F%BA%E7%A1%80)
 
@@ -250,6 +264,8 @@ Scanner scanner = new Scanner(System.in);
    
    **如果程序既可以使用三元运算符又可以使用if-else  那么优先选择三元运算符 原因： 简洁、执行效率高**
 
+------
+
 2. ### 比较运算符 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E6%AF%94%E8%BE%83%E8%BF%90%E7%AE%97%E7%AC%A6.java)
 
    ```
@@ -265,22 +281,30 @@ Scanner scanner = new Scanner(System.in);
    >
    > == 和 != 不仅可以使用在数据类型数据之间 还可以使用在其他引用数据类型之间
 
+------
+
 2. ### 算术运算符 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E7%AE%97%E6%9C%AF%E8%BF%90%E7%AE%97%E7%AC%A6.java)
 
    ```java
    + - * / % (前)++ (后)++ (前)-- (后)--   +
    ```
    
+------
+
 2. ### 赋值运算符 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E8%B5%8B%E5%80%BC%E8%BF%90%E7%AE%97%E7%AC%A6.java)
 
    ```java
    = += -= *= /= %=
    ```
 
+------
+
 2. ### 逻辑运算符 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6.java)
 
    `&逻辑与 &&短路与 |逻辑或 ||短路或 !逻辑非 ^逻辑异或`
    逻辑运算符操作的都是boolean类型的变量 结果也是boolean类型的
+
+------
 
 2. ### 位运算符 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E4%BD%8D%E8%BF%90%E7%AE%97%E7%AC%A6.java)
 
@@ -294,9 +318,14 @@ Scanner scanner = new Scanner(System.in);
    **在一定的范围内 每向右移1位 相当于 / 2**
    **最高效方式的计算 2*8    2 << 3  或 8 << 1**
 
+------
+
 ## 流程控制 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6)
 
 - ### 分支结构 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84)
+
+------
+
 1. #### if循环 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84/ifelse%E5%BE%AA%E7%8E%AF.java)
    
     ​	else 是可选的
@@ -345,7 +374,7 @@ Scanner scanner = new Scanner(System.in);
 2. #### 	switch-case ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84/switchcase.java)
    
    **格式**
-    
+   
    ```java
     switch(表达式){
      case 常量1;
@@ -358,19 +387,19 @@ Scanner scanner = new Scanner(System.in);
         执行语句n;
         //break;
     }
-    ```
-    
+   ```
+   
    **说明**
-    
+   
    ​	①根据switch 表达式中的值 依次匹配各个case中的常量 一旦匹配成功 则进入相应的case结构中调用其执行语句
     当调用完执行语句以后 则仍然继续向下执行其他case结构中的执行语句 直到遇到break关键字或此switch-case机构末尾结束为止
-    
+   
    ​	*②break可以使用在  > switch-case结构中 表示一旦执行此关键字就跳出switch-case结构中*
-    
-   ​	③switch 结构中的表达式 只能是如下6种类型 byte、short、char、int、枚举类  > 型(jdk5.0)、String类型(jdk7.0新增)
-    ​	④case之后只能声明常量，不能声明范围
-    ​	⑤break关键字是可选的
-    ​	⑥default 相当于else
+   
+   ​	③switch 结构中的表达式 只能是如下6种类型 **byte、short、char、int、枚举类型`(jdk5.0)`、String类型`(jdk7.0新增)`**
+    ​	④case之后**只能声明常量，不能声明范围**
+    ​	⑤break关键字**是可选的**
+    ​	⑥default **相当于else**
     ​	 default 可选的，位置是灵活的如果switch case 结构中的多个case的执行语句相同 则可以考虑进行合并
     **说明 凡是使用switch-case的结构 都可以转换为if-else 反之不成立**
     当写分支结构时 既可以 又可以 （case不太多)优先选择switch-case
@@ -381,11 +410,11 @@ Scanner scanner = new Scanner(System.in);
 
 - ### 循环结构 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84)
 
+------
+
 1. #### do-while循环 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/dowhile%E5%BE%AA%E7%8E%AF.java)
 
-   
-     do-while
-     循环结构的四要素
+     **do-while循环四要素**
      	①初始化条件
      	②循环条件 --》是boolean 类型
      	③循环体
@@ -402,70 +431,79 @@ Scanner scanner = new Scanner(System.in);
      ```
    
      执行过程 ①-③-④-②-③-④-。。。-②
-      说明
+      **说明**
      **do-while 循环至少执行一次循环体**
    
    ------
 
 2. #### for循环 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/for%E5%BE%AA%E7%8E%AF.java)
    
+   **for循环四要素**
+   	①初始化条件
+   	②循环条件   是boolean类型
+   	③循环体
+   	④迭代条件
+   for循环结构  
    
-       **for循环四要素**
-       	①初始化条件
-       	②循环条件   是boolean类型
-       	③循环体
-       	④迭代条件
-       for循环结构  
-          
-       ```java
-      for(①;②;④){
+   ```java
+   for(①;②;④){
        ③
-      }
-       ```
+   }
+   ```
    
-       执行过程 ： ① - ② - ③ - ④ - ② - ③ -。。-② 
-
+   执行过程 ： ① - ② - ③ - ④ - ② - ③ -。。-② 
+   
    ------
-
+   
 3. #### while循环 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/while%E5%BE%AA%E7%8E%AF.java)
    
+   **while循环四要素**
+   	①初始化条件
+   	②循环条件 --》是boolean 类型
+   	③循环体
+   	④迭代条件
    
-       循环结构的四要素
-       	①初始化条件
-       ②循环条件 --》是boolean 类型
-       ③循环体
-       ④迭代条件
-         ①
-       
-       while(②){
-       ③;
-       ④;
-       }
-       执行过程 ①-②-③-④-②-③-④。。。-②
-       说明
-       1千万小心丢了迭代条件 一旦丢了 可能导致死循环
-       2要避免死循环
-       3for循环和while可以相互转换
-       区别 for 和while初始化条件的作用范围不同
-       算法 : 有限性
+   while循环结构
+   
+   ```java
+   ①
+   while(②){
+   	③;
+   	④;
+   }
+   ```
+   
+   执行过程 ①-②-③-④-②-③-④。。。-②
+   **说明**
+   1、千万小心丢了迭代条件 一旦丢了 可能导致死循环
+   2、要避免死循环
+   3、for循环和while可以相互转换
+   **区别 for 和while初始化条件的作用范围不同**
+   **算法 : 有限性**
    
    ------
-
+   
 4. #### 嵌套循环 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/%E5%B5%8C%E5%A5%97%E5%BE%AA%E7%8E%AF%E7%9A%84%E4%BD%BF%E7%94%A8.java)
    
     嵌套循环 将一个循环结构A声明在另一个循环结构B的循环体中，就构成了嵌套循环
-        外层循环：循环结构B
+    
+    ```
+     	外层循环：循环结构B
         内层循环：循环结构A
-    说明
-     内层循环结构遍历一遍 只相当于外层循环体
-      技巧
-    外层循环控制行数，内层循环控制列数
+    ```
+    
+   **说明**
+    内层循环结构遍历一遍 只相当于外层循环体循环一次
+     **技巧**
+   **外层循环控制行数，内层循环控制列数**
    
-   - ### 顺序结构 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E9%A1%BA%E5%BA%8F%E7%BB%93%E6%9E%84/%E9%A1%BA%E5%BA%8F%E7%BB%93%E6%9E%84.java)
-   
-   
+- ### 顺序结构 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E9%A1%BA%E5%BA%8F%E7%BB%93%E6%9E%84/%E9%A1%BA%E5%BA%8F%E7%BB%93%E6%9E%84.java)
+  
+  
     > 程序从上到下执行
-
+   
+   ------
+   
 - 
   ### 练习题 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98)
 
