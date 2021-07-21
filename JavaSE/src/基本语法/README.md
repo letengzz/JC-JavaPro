@@ -45,6 +45,32 @@
   数组(array)
 ```
 
+有些时候，类型的名字太长，写起来比较麻烦。例如：
+
+```
+StringBuilder sb = new StringBuilder();
+```
+
+这个时候，如果想省略变量类型，可以使用var关键字：
+
+```
+var sb = new StringBuilder();
+```
+
+编译器会根据赋值语句自动推断出变量`sb`的类型是`StringBuilder`。对编译器来说，语句：
+
+```
+var sb = new StringBuilder();
+```
+
+实际上会自动变成：
+
+```
+StringBuilder sb = new StringBuilder();
+```
+
+因此，使用var定义变量，仅仅是少写了变量类型而已。
+
 ####  变量按照声明的位置
 
 #####   		成员变量 
@@ -74,23 +100,62 @@
 #####   		局部变量
 
  定义变量的格式:数据类型 变量名 = 变量值;
-*      先声明 后使用
-*      变量都有其对应的作用域
-在类中声明的位置：声明在方法内、方法形参、代码块、构造器内部的变量
-*      不可以使用权限修饰符
+* 先声明 后使用
+
+* 变量都有其对应的作用域
+  在类中声明的位置：声明在方法内、方法形参、代码块、构造器内部的变量
+
+* 不可以使用权限修饰符
+
 * 没有默认初始化值 意味着在调用局部变量之前一定要显式赋值
 
   ​	特别的 形参在调用时 赋值即可
-*      在内存中加载到栈空间中
+  
+* 在内存中加载到栈空间中
+## 类型转换
+
+基本数据类型运算规则
+
+**前提**:只是七种基本数据类型变量间的运算,不包含 boolean类型
+
+* ### 1.自动类型提升
+
+  当容量小的数据类型的变量与容量大的数据类型做运算 结果自动提升为容量大的数据类型
+
+  ```
+  byte、char、short-->int--->long-->float-->double
+  ```
+
+  当byte、char、short三种做运算时、结果为int型
+
+* ### 2.强制类型转换:
+
+  自动提升的逆运算
+
+  需要使用**强转符()**
+
+  强制类型转换可能导致精度损失
+
+  ```java
+  byte b = (byte)i2;
+  ```
+
+* **说明**: 此时的容量大小指的是，表示数的范围的大和小 比如 float 容量大于long
 
 ## 基础 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%9F%BA%E7%A1%80)
 
 - ### String变量的使用 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%8F%98%E9%87%8F/String%E5%8F%98%E9%87%8F%E4%BD%BF%E7%94%A8.java)
 
   - String属于引用类型
+
   - 声明String变量时，使用一对""
+
   - String可以跟八种数据类型做运算，且只能是连接运算:+
+
   - 运算结果仍然是String
+
+------
+
 
 - ### HelloWorld ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%9F%BA%E7%A1%80/HelloWorld.java)
 
@@ -154,6 +219,69 @@ Scanner scanner = new Scanner(System.in);
     - 八进制(octal):0-7.满八进一，以0开头表示
     - 十六进制(hex):0-9及A-F.满十六进一，以`0x`或`0X`开头表示 此处的A-F不区分大小写
       			`如:0x21AF + 1 = 0X21B0`
+
+## 运算符 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6)
+
+1. ### 三元运算符 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6.java)
+
+   ##### 结构 ： (条件表达式)?表达式1:表达式2
+
+   **说明：**
+
+   ​	①条件表达式的结果为boolean类型
+   ​	②根据条件表达式 决定执行表达式1 还是表达式2
+   ​			如果表达式为true 则执行表达式1
+   ​			如果表达式为false 则执行表达式2
+   **表达式1 和表达式2要求是一致的**
+
+   **三元运算符 可以嵌套**
+
+   *凡是可以使用三元运算符 的地方 都可以改写成if-else*
+   *用if-else 的地方不一定可以改写成三元运算符*
+
+   **如果程序既可以使用三元运算符又可以使用if-else  那么优先选择三元运算符 原因： 简洁、执行效率高**
+
+2. ### 比较运算符 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E6%AF%94%E8%BE%83%E8%BF%90%E7%AE%97%E7%AC%A6.java)
+
+   ```
+   == != > < >= <= instanceof
+   ```
+
+   ##### **结论**
+
+   ​	比较运算符结果是boolean类型
+   *区分 **==** 和 =*
+
+   > < >= <= 只能使用在数值类型的数据之间
+   >
+   > == 和 != 不仅可以使用在数据类型数据之间 还可以使用在其他引用数据类型之间
+
+2. ### 算术运算符 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E7%AE%97%E6%9C%AF%E8%BF%90%E7%AE%97%E7%AC%A6.java)
+
+   ```java
+   + - * / % (前)++ (后)++ (前)-- (后)--   +
+   ```
+   
+2. ### 赋值运算符 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E8%B5%8B%E5%80%BC%E8%BF%90%E7%AE%97%E7%AC%A6.java)
+
+   ```java
+   = += -= *= /= %=
+   ```
+
+2. ### 逻辑运算符 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6.java)
+
+   `&逻辑与 &&短路与 |逻辑或 ||短路或 !逻辑非 ^逻辑异或`
+   逻辑运算符操作的都是boolean类型的变量 结果也是boolean类型的
+
+2. ### 位运算符 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E4%BD%8D%E8%BF%90%E7%AE%97%E7%AC%A6.java)
+
+   > 位运算符
+   > `<<左移 >>右移 >>>无符号右移  & 与 |或  ^异或 ~取反`
+   > 位运算符操作的都是整型的数据
+   > <<在一定的范围内 每向左移1位 相当于 * 2
+   >
+   > 在一定的范围内 每向右移1位 相当于 / 2
+   > 最高效方式的计算 2*8    2 << 3  或 8 << 1
 
 ## 流程控制 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6)
 
@@ -377,106 +505,8 @@ Scanner scanner = new Scanner(System.in);
 >               循环结构中
 > continue         循环结构中       结束当次循环        关键字后面不能声明执行语句
 
-## 类型转换---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2)
-1. ### 强制类型转换 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/%E5%BC%BA%E5%88%B6%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2.java)
+2. > >>
 
-   >  基本数据类型运算规则
-   >
-   >  ##### 前提:只是七种基本数据类型变量间的运算,不包含 boolean类型
-   >
-   >  ##### 1自动类型提升
-   >
-   >  ​	当容量小的数据类型的变量与容量大的数据类型做运算 结果自动提升为容量大的数据类型
-   >   byte、char、short->int->long->float->double
-   >   当byte、char、short三种做运算时、结果为int型
-   >
-   >  ##### 2强制类型转换:自动提升的逆运算
-   >
-   >  ​	需要使用强转符
-   >  ​	强制类型转换可能导致精度损失
-   >
-   >  ##### 说明: 此时的容量大小指的是，表示数的范围的大和小 比如 float 容量大于long
-
-
-
-2. ### 自动类型转换 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/%E8%87%AA%E5%8A%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2.java)
-
-   >  基本数据类型运算规则
-   >
-   >  ##### 	前提:只是七种基本数据类型变量间的运算,不包含 boolean类型
-   >
-   >  ##### 自动类型提升
-   >
-   >  ​		当容量小的数据类型的变量与容量大的数据类型做运算 结果自动提升为容量大的数据类型
-   >   byte、char、short->int->long->float->double
-   >   当byte、char、short三种做运算时、结果为int型
-   >
-   >  ##### 说明: 此时的容量大小指的是，表示数的范围的大和小 比如 float 容量大于long
-   
-   
-## 运算符 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6)
-1. ### 三元运算符 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6.java)
-   > 三元运算符
-   >
-   > ##### 结构 ： (条件表达式)?表达式1:表达式2
-   >
-   > ##### 说明：
-   >
-   > ​	①条件表达式的结果为boolean类型
-   > ​	②根据条件表达式 决定执行表达式1 还是表达式2
-   > ​			如果表达式为true 则执行表达式1
-   > ​			如果表达式为false 则执行表达式2
-   > **表达式1 和表达式2要求是一致的**
-   >
-   > ##### 三元运算符 可以嵌套
-   >
-   > *凡是可以使用三元运算符 的地方 都可以改写成if-else*
-   > *用if-else 的地方不一定可以改写成三元运算符*
-   >
-   > <u>如果程序既可以使用三元运算符又可以使用if-else  那么优先选择三元运算符 原因： 简洁、执行效率高</u>
-
-
-
-2. ### 比较运算符 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E6%AF%94%E8%BE%83%E8%BF%90%E7%AE%97%E7%AC%A6.java)
-
-   > 比较运算符
-   > 		`== != > < >= <= instanceof`
-   >
-   > ##### **结论**
-   >
-   > ​	比较运算符结果是boolean类型
-   > *区分 **==** 和 =*
-   >
-   > > < >= <= 只能使用在数值类型的数据之间
-   > >
-   > > == 和 != 不仅可以使用在数据类型数据之间 还可以使用在其他引用数据类型之间
-
-2. ### 算术运算符 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E7%AE%97%E6%9C%AF%E8%BF%90%E7%AE%97%E7%AC%A6.java)
-
-   > 算术运算符
-   > ```java
-   > + - * / % (前)++ (后)++ (前)-- (后)--   +
-   > ```
-2. ### 赋值运算符 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E8%B5%8B%E5%80%BC%E8%BF%90%E7%AE%97%E7%AC%A6.java)
-
-   > 赋值运算符
-   > `= += -= *= /= %=`
-
-2. ### 逻辑运算符 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6.java)
-
-   > `&逻辑与 &&短路与 |逻辑或 ||短路或 !逻辑非 ^逻辑异或`
-   > 逻辑运算符操作的都是boolean类型的变量 结果也是boolean类型的
-   
-2. ### 位运算符 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E4%BD%8D%E8%BF%90%E7%AE%97%E7%AC%A6.java)
-
-   > 位运算符
-   > `<<左移 >>右移 >>>无符号右移  & 与 |或  ^异或 ~取反`
-   > 位运算符操作的都是整型的数据
-   > <<在一定的范围内 每向左移1位 相当于 * 2
-   >
-   > >>在一定的范围内 每向右移1位 相当于 / 2
-   > 最高效方式的计算 2*8    2 << 3  或 8 << 1
-   
 2. ## 练习题 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E7%BB%83%E4%B9%A0%E9%A2%98)
    
    #### 	位运算练习 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E7%BB%83%E4%B9%A0%E9%A2%98/%E4%BD%8D%E8%BF%90%E7%AE%97%E7%AC%A6%E7%BB%83%E4%B9%A0.java)
