@@ -4,7 +4,7 @@
 
 ## JavaSE
 
-1. #### 基本语法 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/https://github.com/letengzz/JavaDemo/tree/master/JavaSE/src/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86)
+1. #### 基本语法 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86)
 
    > 包含:变量、基础、流程控制、类型转换、运算符
 

@@ -1,4 +1,4 @@
-package JavaSE.面向对象;
+package 面向对象;
 /**
  * 属性(成员变量) vs 局部变量
  *
