@@ -2,7 +2,7 @@
 
 ## 变量 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%8F%98%E9%87%8F)
 
-1. ### 变量的使用
+1. ### 变量的使用 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%8F%98%E9%87%8F)
 
 `java`定义变量的格式：
 
@@ -20,13 +20,13 @@
 
 ------
 
-2. ### 变量类型
+2. ### 变量类型 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%8F%98%E9%87%8F)
 
-#### 数据类型分类: ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B)
+#### 数据类型分类: 
 
 ####        **变量按照数据类型分**
 
-#### var字符
+#### var字符 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%8F%98%E9%87%8F)
 
 有些时候，类型的名字太长，写起来比较麻烦。例如：
 
@@ -125,7 +125,7 @@ StringBuilder sb = new StringBuilder();
 
 ------
 
-## 类型转换
+## 类型转换 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%8F%98%E9%87%8F)
 
 基本数据类型运算规则
 
@@ -238,6 +238,7 @@ Scanner scanner = new Scanner(System.in);
     - 八进制(octal):0-7.满八进一，以0开头表示
     - 十六进制(hex):0-9及A-F.满十六进一，以`0x`或`0X`开头表示 此处的A-F不区分大小写
       			`如:0x21AF + 1 = 0X21B0`
+    ------
 
 ## 运算符 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6)
 
@@ -505,5 +506,7 @@ Scanner scanner = new Scanner(System.in);
    ------
    
 - 
-  ### 练习题 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98)
+  ## 练习题 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98)
+
+------
 
