@@ -2,7 +2,7 @@
 
 ## 变量 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%8F%98%E9%87%8F)
 
-1. ### 变量的使用 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%8F%98%E9%87%8F)
+1. ### 变量的使用
 
 `java`定义变量的格式：
 
@@ -20,13 +20,13 @@
 
 ------
 
-2. ### 变量类型 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%8F%98%E9%87%8F)
+2. ### 变量类型
 
 #### 数据类型分类: 
 
 ####        **变量按照数据类型分**
 
-#### var字符 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%8F%98%E9%87%8F)
+#### var字符 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/var%E7%B1%BB%E5%9E%8B.java)
 
 有些时候，类型的名字太长，写起来比较麻烦。例如：
 
@@ -125,7 +125,7 @@ StringBuilder sb = new StringBuilder();
 
 ------
 
-## 类型转换 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%8F%98%E9%87%8F)
+## 类型转换 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2)
 
 基本数据类型运算规则
 
@@ -161,9 +161,9 @@ StringBuilder sb = new StringBuilder();
 
 ------
 
-## 基础 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%9F%BA%E7%A1%80)
+## 基础 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%9F%BA%E7%A1%80)
 
-- ### String变量的使用 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%8F%98%E9%87%8F/String%E5%8F%98%E9%87%8F%E4%BD%BF%E7%94%A8.java)
+- ### String变量的使用 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%9F%BA%E7%A1%80/String%E5%8F%98%E9%87%8F%E4%BD%BF%E7%94%A8.java)
 
   - String属于引用类型
 
@@ -176,11 +176,11 @@ StringBuilder sb = new StringBuilder();
 ------
 
 
-- ### `HelloWorld` ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%9F%BA%E7%A1%80/HelloWorld.java)
+- ### `HelloWorld` ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%9F%BA%E7%A1%80/HelloWorld.java)
 
 ------
 
-- ### Scanner获取 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%9F%BA%E7%A1%80/Scanner%E8%8E%B7%E5%8F%96.java)
+- ### Scanner获取 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%9F%BA%E7%A1%80/Scanner%E8%8E%B7%E5%8F%96.java)
 
 从键盘获取不同类型的变量 使用Scanner 类
 
@@ -219,7 +219,7 @@ Scanner scanner = new Scanner(System.in);
 
 ------
 
-- ### 获取随机数 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%9F%BA%E7%A1%80/%E8%8E%B7%E5%8F%96%E9%9A%8F%E6%9C%BA%E6%95%B0.java)
+- ### 获取随机数 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%9F%BA%E7%A1%80/%E8%8E%B7%E5%8F%96%E9%9A%8F%E6%9C%BA%E6%95%B0.java)
 
 
    > ```java
@@ -228,7 +228,7 @@ Scanner scanner = new Scanner(System.in);
 
 ------
 
-- ### 进制---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%9F%BA%E7%A1%80/%E8%BF%9B%E5%88%B6.java)
+- ### 进制---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E5%9F%BA%E7%A1%80/%E8%BF%9B%E5%88%B6.java)
 
     计算机中不同进制
     	对于整数有四种表现方式
@@ -240,9 +240,24 @@ Scanner scanner = new Scanner(System.in);
       			`如:0x21AF + 1 = 0X21B0`
     ------
 
-## 运算符 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6)
+* ### break和continue关键字的使用
 
-1. ### 三元运算符 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6.java)
+  ```java
+  				使用范围        循环中使用的作用        相同点
+  
+  break           switch-case    	结束当前循环        关键字后面不能声明执行语句
+  
+  				循环结构中
+  
+  
+  continue         循环结构中       结束当次循环        关键字后面不能声明执行语句
+  ```
+
+  
+
+## 运算符 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6)
+
+1. ### 三元运算符 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6.java)
 
    **结构 ：** 
 
@@ -267,7 +282,7 @@ Scanner scanner = new Scanner(System.in);
 
 ------
 
-2. ### 比较运算符 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E6%AF%94%E8%BE%83%E8%BF%90%E7%AE%97%E7%AC%A6.java)
+2. ### 比较运算符 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E6%AF%94%E8%BE%83%E8%BF%90%E7%AE%97%E7%AC%A6.java)
 
    ```
    == != > < >= <= instanceof
@@ -284,7 +299,7 @@ Scanner scanner = new Scanner(System.in);
 
 ------
 
-2. ### 算术运算符 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E7%AE%97%E6%9C%AF%E8%BF%90%E7%AE%97%E7%AC%A6.java)
+2. ### 算术运算符 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E7%AE%97%E6%9C%AF%E8%BF%90%E7%AE%97%E7%AC%A6.java)
 
    ```java
    + - * / % (前)++ (后)++ (前)-- (后)--   +
@@ -292,7 +307,7 @@ Scanner scanner = new Scanner(System.in);
    
 ------
 
-2. ### 赋值运算符 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E8%B5%8B%E5%80%BC%E8%BF%90%E7%AE%97%E7%AC%A6.java)
+2. ### 赋值运算符 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E8%B5%8B%E5%80%BC%E8%BF%90%E7%AE%97%E7%AC%A6.java)
 
    ```java
    = += -= *= /= %=
@@ -300,14 +315,14 @@ Scanner scanner = new Scanner(System.in);
 
 ------
 
-2. ### 逻辑运算符 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6.java)
+2. ### 逻辑运算符 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6.java)
 
    `&逻辑与 &&短路与 |逻辑或 ||短路或 !逻辑非 ^逻辑异或`
    逻辑运算符操作的都是boolean类型的变量 结果也是boolean类型的
 
 ------
 
-2. ### 位运算符 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E4%BD%8D%E8%BF%90%E7%AE%97%E7%AC%A6.java)
+2. ### 位运算符 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E4%BD%8D%E8%BF%90%E7%AE%97%E7%AC%A6.java)
 
    ```java
    <<左移 >>右移 >>>无符号右移  & 与 |或  ^异或 ~取反
@@ -321,13 +336,13 @@ Scanner scanner = new Scanner(System.in);
 
 ------
 
-## 流程控制 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6)
+## 流程控制 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6)
 
-- ### 分支结构 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84)
+- ### 分支结构 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84)
 
 ------
 
-1. #### if循环 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84/ifelse%E5%BE%AA%E7%8E%AF.java)
+1. #### if循环 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84/ifelse.java)
    
     ​	else 是可选的
     ​	针对多个条件表达式之间是**互斥关系**(没有交集的关系 哪个判断和执行语句在上面 还是下面都无所谓
@@ -372,7 +387,7 @@ Scanner scanner = new Scanner(System.in);
    
    ------
    
-2. #### 	switch-case ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84/switchcase.java)
+2. #### 	switch-case ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84/switchcase.java)
    
    **格式**
    
@@ -409,11 +424,11 @@ Scanner scanner = new Scanner(System.in);
 
 ------
 
-- ### 循环结构 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84)
+- ### 循环结构 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84)
 
 ------
 
-1. #### do-while循环 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/dowhile%E5%BE%AA%E7%8E%AF.java)
+1. #### do-while循环 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/dowhile%E5%BE%AA%E7%8E%AF.java)
 
      **do-while循环四要素**
      	①初始化条件
@@ -456,7 +471,7 @@ Scanner scanner = new Scanner(System.in);
    
    ------
    
-3. #### while循环 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/while%E5%BE%AA%E7%8E%AF.java)
+3. #### while循环 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/while%E5%BE%AA%E7%8E%AF.java)
    
    **while循环四要素**
    	①初始化条件
@@ -484,7 +499,7 @@ Scanner scanner = new Scanner(System.in);
    
    ------
    
-4. #### 嵌套循环 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/%E5%B5%8C%E5%A5%97%E5%BE%AA%E7%8E%AF%E7%9A%84%E4%BD%BF%E7%94%A8.java)
+4. #### 嵌套循环 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/%E5%B5%8C%E5%A5%97%E5%BE%AA%E7%8E%AF%E7%9A%84%E4%BD%BF%E7%94%A8.java)
    
     嵌套循环 将一个循环结构A声明在另一个循环结构B的循环体中，就构成了嵌套循环
     
@@ -498,7 +513,7 @@ Scanner scanner = new Scanner(System.in);
      **技巧**
    **外层循环控制行数，内层循环控制列数**
    
-- ### 顺序结构 ---> [Here](https://github.com/letengzz/JC-Java/blob/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E9%A1%BA%E5%BA%8F%E7%BB%93%E6%9E%84/%E9%A1%BA%E5%BA%8F%E7%BB%93%E6%9E%84.java)
+- ### 顺序结构 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E9%A1%BA%E5%BA%8F%E7%BB%93%E6%9E%84/%E9%A1%BA%E5%BA%8F%E7%BB%93%E6%9E%84.java)
   
   
     > 程序从上到下执行
@@ -506,7 +521,89 @@ Scanner scanner = new Scanner(System.in);
    ------
    
 - 
-  ## 练习题 ---> [Here](https://github.com/letengzz/JC-Java/tree/master/JavaSE/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98)
+  ## 练习题
 
 ------
 
+
+   - ### 分支结构 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98)
+
+     #### if练习题 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/if%E7%BB%83%E4%B9%A0%E9%A2%98)
+
+     ##### if语句例题1 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/if%E7%BB%83%E4%B9%A0%E9%A2%98/if%E8%AF%AD%E5%8F%A5%E4%BE%8B%E9%A2%981.java)
+
+     ##### if语句例题2 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/if%E7%BB%83%E4%B9%A0%E9%A2%98/if%E8%AF%AD%E5%8F%A5%E4%BE%8B%E9%A2%982.java)
+
+     ##### if语句练习1 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/if%E7%BB%83%E4%B9%A0%E9%A2%98/if%E8%AF%AD%E5%8F%A5%E7%BB%83%E4%B9%A0.java)
+
+     ##### if语句练习2 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/if%E7%BB%83%E4%B9%A0%E9%A2%98/if%E8%AF%AD%E5%8F%A5%E7%BB%83%E4%B9%A01.java)
+
+     ##### if语句练习3 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/if%E7%BB%83%E4%B9%A0%E9%A2%98/if%E8%AF%AD%E5%8F%A5%E7%BB%83%E4%B9%A02.java)
+
+     ##### if语句练习4 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/if%E7%BB%83%E4%B9%A0%E9%A2%98/if%E8%AF%AD%E5%8F%A5%E7%BB%83%E4%B9%A03.java)
+
+     #### switch练习题 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/switch%E7%BB%83%E4%B9%A0%E9%A2%98)
+
+     ##### if语句改switch ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/switch%E7%BB%83%E4%B9%A0%E9%A2%98/if%E8%AF%AD%E5%8F%A5%E6%94%B9switch.java)
+
+     ##### switch练习题1 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/switch%E7%BB%83%E4%B9%A0%E9%A2%98/switch%E7%BB%83%E4%B9%A0%E9%A2%98.java)
+
+     ##### switch练习题2 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/switch%E7%BB%83%E4%B9%A0%E9%A2%98/switch%E7%BB%83%E4%B9%A0%E9%A2%981.java)
+
+     ##### switch练习题3 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/switch%E7%BB%83%E4%B9%A0%E9%A2%98/switch%E7%BB%83%E4%B9%A0%E9%A2%982.java)
+
+     ##### switch练习题4 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/switch%E7%BB%83%E4%B9%A0%E9%A2%98/switch%E7%BB%83%E4%B9%A0%E9%A2%983.java)
+
+     ##### switch练习题5 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/switch%E7%BB%83%E4%B9%A0%E9%A2%98/switch%E7%BB%83%E4%B9%A0%E9%A2%984.java)
+
+     ##### switch练习题6 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/switch%E7%BB%83%E4%B9%A0%E9%A2%98/switch%E7%BB%83%E4%B9%A0%E9%A2%985.java)
+
+     ##### 中国生肖问题 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/switch%E7%BB%83%E4%B9%A0%E9%A2%98/%E4%B8%AD%E5%9B%BD%E7%94%9F%E8%82%96%E9%97%AE%E9%A2%98.java)
+
+   - ### 循环结构 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98)
+
+     #### for练习题 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/for%E7%BB%83%E4%B9%A0%E9%A2%98)
+
+     ##### for练习题1 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/for%E7%BB%83%E4%B9%A0%E9%A2%98/for%E7%BB%83%E4%B9%A0%E9%A2%98.java)
+
+     ##### for练习题2 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/for%E7%BB%83%E4%B9%A0%E9%A2%98/for%E7%BB%83%E4%B9%A0%E9%A2%981.java)
+
+     ##### for练习题3 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/for%E7%BB%83%E4%B9%A0%E9%A2%98/for%E8%AF%AD%E5%8F%A5%E7%BB%83%E4%B9%A02.java)
+
+     ##### 无限循环 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/for%E7%BB%83%E4%B9%A0%E9%A2%98/%E6%97%A0%E9%99%90%E5%BE%AA%E7%8E%AF.java)
+
+     #### while练习题 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/while%E7%BB%83%E4%B9%A0%E9%A2%98)
+
+     ##### while语句练习 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/while%E7%BB%83%E4%B9%A0%E9%A2%98/while%E8%AF%AD%E5%8F%A5%E7%BB%83%E4%B9%A0.java)
+
+     ##### 无限循环 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/while%E7%BB%83%E4%B9%A0%E9%A2%98/%E6%97%A0%E9%99%90%E5%BE%AA%E7%8E%AF.java)
+
+     #### 嵌套循环练习题 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/%E5%B5%8C%E5%A5%97%E5%BE%AA%E7%8E%AF%E7%BB%83%E4%B9%A0%E9%A2%98)
+
+     ##### 一百以内所有质数 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/%E5%B5%8C%E5%A5%97%E5%BE%AA%E7%8E%AF%E7%BB%83%E4%B9%A0%E9%A2%98/%E4%B8%80%E7%99%BE%E4%BB%A5%E5%86%85%E6%89%80%E6%9C%89%E8%B4%A8%E6%95%B0)
+
+     ##### 三角问题 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/%E5%B5%8C%E5%A5%97%E5%BE%AA%E7%8E%AF%E7%BB%83%E4%B9%A0%E9%A2%98/%E4%B8%89%E8%A7%92%E9%97%AE%E9%A2%98)
+
+     ##### 九九乘法表 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/%E5%B5%8C%E5%A5%97%E5%BE%AA%E7%8E%AF%E7%BB%83%E4%B9%A0%E9%A2%98/%E4%B9%9D%E4%B9%9D%E4%B9%98%E6%B3%95%E8%A1%A8.java)
+
+     ##### 完数 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84/%E7%BB%83%E4%B9%A0%E9%A2%98/%E5%AE%8C%E6%95%B0.java)
+
+   - ### 项目-家庭记账软件 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E9%A1%B9%E7%9B%AE/%E5%AE%B6%E5%BA%AD%E8%AE%B0%E8%B4%A6%E8%BD%AF%E4%BB%B6)
+
+   - ### 运算符 ---> [Here](https://github.com/letengzz/JC-JavaPro/tree/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E7%BB%83%E4%B9%A0%E9%A2%98)
+
+     ##### 位运算符练习 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E7%BB%83%E4%B9%A0%E9%A2%98/%E4%BD%8D%E8%BF%90%E7%AE%97%E7%AC%A6%E7%BB%83%E4%B9%A0.java)
+
+     ##### 求0到255十六进制值 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E7%BB%83%E4%B9%A0%E9%A2%98/%E6%B1%820%E5%88%B0255%E6%95%B4%E6%95%B0%E7%9A%84%E5%8D%81%E5%85%AD%E8%BF%9B%E5%88%B6%E5%80%BC.java)
+
+     ##### 算术运算符练习题 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E7%BB%83%E4%B9%A0%E9%A2%98/%E7%AE%97%E6%9C%AF%E8%BF%90%E7%AE%97%E7%AC%A6%E7%BB%83%E4%B9%A0%E9%A2%98.java)
+
+     ##### 自增自减练习题 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E7%BB%83%E4%B9%A0%E9%A2%98/%E8%87%AA%E5%A2%9E%E8%87%AA%E5%87%8F%E7%BB%83%E4%B9%A0%E9%A2%98.java)
+
+     ##### 赋值运算符练习题 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E7%BB%83%E4%B9%A0%E9%A2%98/%E8%B5%8B%E5%80%BC%E8%BF%90%E7%AE%97%E7%AC%A6%E7%BB%83%E4%B9%A0%E9%A2%98.java)
+
+     ##### 逻辑运算符练习题1 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E7%BB%83%E4%B9%A0%E9%A2%98/%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6%E7%BB%83%E4%B9%A0%E9%A2%98.java)
+
+     ##### 逻辑运算符练习题2 ---> [Here](https://github.com/letengzz/JC-JavaPro/blob/master/JavaSE/src/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/%E8%BF%90%E7%AE%97%E7%AC%A6/%E7%BB%83%E4%B9%A0%E9%A2%98/%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6%E7%BB%83%E4%B9%A0%E9%A2%982.java)
+
+     
