@@ -1,4 +1,4 @@
-package JavaSE.数组.常见异常;
+package 数组.常见异常;
 /**
  * 数组中常见的异常：
  * 1.数组角标越界的异常：ArrayIndexOutOfBoundsExcetion

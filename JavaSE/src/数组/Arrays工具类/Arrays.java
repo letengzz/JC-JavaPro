@@ -1,4 +1,4 @@
-package JavaSE.数组.Arrays工具类;
+package 数组.Arrays工具类;
 /**
  * java.util.Array 操作数组的工具类 里面定义了很多操作数组的方法
  *
