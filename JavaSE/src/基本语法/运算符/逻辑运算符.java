@@ -6,7 +6,7 @@ package 基本语法.运算符;
  *  逻辑运算符操作的都是boolean类型的变量 结果也是boolean类型的
  * */
 public class 逻辑运算符 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {2
         //区分& 和&&
         //相同点 & 与 && 的运算结果相同
         //当符号左边是true 时二者都会执行符号右边的运算

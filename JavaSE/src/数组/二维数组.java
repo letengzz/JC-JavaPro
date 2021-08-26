@@ -1,6 +1,4 @@
-package JavaSE.数组;
-
-import com.sun.security.jgss.GSSUtil;
+package 数组;
 
 /**
  *

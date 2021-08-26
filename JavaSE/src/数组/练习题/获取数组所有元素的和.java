@@ -1,4 +1,4 @@
-package JavaSE.数组.练习题;
+package 数组.练习题;
 /**
  * 获取arr数组所有元素的和
  *     j=0 j=1 j=2 j=3
